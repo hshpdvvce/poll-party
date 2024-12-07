@@ -1,0 +1,23 @@
+/* index.css */
+:root {
+    --primary-color: #4a90e2; /* Light blue */
+    --secondary-color: #50e3c2; /* Light green */
+    --background-color: #faf6e3; /* Light gray */
+    --text-color: #4a4a4a; /* Dark gray */
+    --link-hover-color: #d0021b; /* Red */
+    --font-family: 'Poppins', sans-serif; /* Modern, readable font */
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

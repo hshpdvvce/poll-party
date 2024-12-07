@@ -1,0 +1,59 @@
+/* App.css */
+.App {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.App-logo {
+    height: 20vmin;
+    animation: App-logo-spin infinite 10s linear;
+}
+
+.App-header {
+    background-color: var(--primary-color);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.App-link {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.App-link:hover {
+    color: var(--link-hover-color);
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive typography */
+html {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .App-header {
+        padding: 20px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .App-logo {
+        animation: none;
+    }
+}
